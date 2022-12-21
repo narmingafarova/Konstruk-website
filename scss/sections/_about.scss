@@ -1,0 +1,59 @@
+.about-section {
+  width: 100%;
+  @include center();
+  padding: 100px 0;
+  .container {
+    width: 80%;
+    .content-flex {
+      width: 100%;
+      @include space_bet();
+      .about-img {
+        width: 40%;
+      }
+      .about-data {
+        width: 45%;
+        h2 {
+          font-family: "Playfair Display", serif;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 53px;
+          color: $black;
+        }
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 400;
+          color: $dark-grey;
+          padding: 20px 0;
+        }
+        h4 {
+          font-family: "Roboto", Sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+          color: $black;
+          padding-bottom: 15px;
+        }
+        .about-list {
+          .about-check-list {
+            display: flex;
+            width: 60%;
+            flex-wrap: wrap;
+            li {
+              width: 140px;
+              margin-top: 12px;
+              margin-bottom: 15px;
+              i {
+                color: $orange;
+                padding-right: 10px;
+              }
+            }
+          }
+        }
+        button {
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

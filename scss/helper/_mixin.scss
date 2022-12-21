@@ -1,0 +1,26 @@
+@mixin flex_sbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin space_bet {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex_aic {
+    display: flex;
+    align-items: center;
+}
+
+@mixin atd_fontsw {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}

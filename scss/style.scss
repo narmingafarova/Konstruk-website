@@ -1,0 +1,28 @@
+@import "reset";
+
+// Helpers
+@import "helper/mixin";
+@import "helper/var";
+@import "helper/line-text";
+@import "helper/button";
+@import "helper/scroll";
+
+// Sections
+@import "sections/header";
+@import "sections/initial";
+@import "sections/about";
+@import "sections/service";
+@import "sections/counter";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-2-section {
+  background-image: url(https://devsdesign.net/products/html/konstruk/assets/images/bg/double-sec-bg.png);
+  background-size: cover;
+}

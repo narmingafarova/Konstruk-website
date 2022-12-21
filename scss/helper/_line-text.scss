@@ -1,0 +1,17 @@
+.main-line-word {
+    @include flex_aic();
+    justify-content: flex-start;
+    .main-line {
+      width: 50px;
+      height: 2px;
+      background-color: $orange;
+      margin-right: 10px;
+    }
+    .main-word {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      color: $dark-grey;
+      text-transform: uppercase;
+    }
+  }
